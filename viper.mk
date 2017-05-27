@@ -11,11 +11,3 @@ PRODUCT_MANUFACTURER := Samsung
 PRODUCT_RELEASE_NAME := j5ltexx
 TARGET_DEVICE := j5lte
 
-# Support Poison
-PURE_POISON=true
-
-## OTAUpdate
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.ota.romname=$(PRODUCT_NAME) \
-    ro.ota.version=$(shell date +%Y%m%d) \
-ro.ota.manifest=https://raw.githubusercontent.com/Viper0S/android_vendor_ViperOTA/n-mr1/$(PRODUCT_NAME).xml
