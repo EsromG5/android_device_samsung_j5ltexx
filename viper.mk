@@ -12,5 +12,4 @@ PRODUCT_RELEASE_NAME := j5ltexx
 TARGET_DEVICE := j5lte
 
 # This is Official supported
-PURE_POISON=true
 VIPER_BUILD_TYPE=OFFICIAL
