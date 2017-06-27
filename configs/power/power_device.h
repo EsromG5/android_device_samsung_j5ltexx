@@ -29,7 +29,7 @@ static power_profile profiles[PROFILE_MAX] = {
         .target_loads_off = 90,
         .scaling_max_freq = 998400,
         .scaling_min_freq = 400000,
-        .scaling_min_freq_off = 50000,
+        .scaling_min_freq_off = 200000,
     },
     [PROFILE_BALANCED] = {
         .boost = 0,
@@ -45,7 +45,7 @@ static power_profile profiles[PROFILE_MAX] = {
         .target_loads_off = 90,
         .scaling_max_freq = 1190400,
         .scaling_min_freq = 800000,
-        .scaling_min_freq_off = 50000,
+        .scaling_min_freq_off = 200000,
     },
     [PROFILE_HIGH_PERFORMANCE] = {
         .boost = 1,
@@ -63,7 +63,7 @@ static power_profile profiles[PROFILE_MAX] = {
         .target_loads_off = 70,
         .scaling_max_freq = 1190400,
         .scaling_min_freq = 800000,
-        .scaling_min_freq_off = 50000,
+        .scaling_min_freq_off = 200000,
     },
     [PROFILE_BIAS_POWER_SAVE] = {
         .boost = 0,
@@ -79,6 +79,6 @@ static power_profile profiles[PROFILE_MAX] = {
         .target_loads_off = 90,
         .scaling_max_freq = 1190400,
         .scaling_min_freq = 400000,
-        .scaling_min_freq_off = 50000,
+        .scaling_min_freq_off = 200000,
     },
 };
