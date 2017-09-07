@@ -59,7 +59,3 @@ TARGET_OTA_ASSERT_DEVICE := j5lte,j5nlte,j5lteub,j5ltedx,j5yltedo
 # Kernel
 TARGET_KERNEL_CONFIG := lineageos_j5nlte_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/j5lte
-
-# Vendor Init
-TARGET_UNIFIED_DEVICE := true
-TARGET_INIT_VENDOR_LIB := libinit_j5lte
